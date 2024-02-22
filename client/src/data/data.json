@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "id": "81d1f8c1-1116-4d7a-9291-5b210a22c9d5",
+      "name": "Birda",
+      "surname": "Larson",
+      "email": "birda@gmail.com",
+      "address": "Ankara",
+      "jobTitle": "Backend Developer"
+    },
+    {
+      "id": "d1765d24-eaae-46c7-8078-1c914cff269c",
+      "name": "Davut",
+      "email": "davut@gmail.com",
+      "surname": "Durmaz",
+      "address": "Newbridge",
+      "jobTitle": "Actor"
+    },
+    {
+      "id": "3fa74921-32c4-4aef-a65c-bf87b72b9816",
+      "name": "Lillian",
+      "email": "lillianburgess@luxuria.com",
+      "surname": "Burgess",
+      "address": "Birmingham",
+      "jobTitle": "Backend Developer"
+    },
+    {
+      "id": "6e7e4047-d123-4025-b114-1f7226115ce1",
+      "name": "Kristie",
+      "email": "kristiecole@quadeebo.com",
+      "surname": "Cole",
+      "address": "Ankara",
+      "jobTitle": "Engineer"
+    }
+  ]
+}

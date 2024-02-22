@@ -1,0 +1,25 @@
+.my-calendar .p-calendar .p-inputtext input.p-inputtext.p-component {
+  border-radius: 0.375rem !important;
+}
+
+.button-hover {
+  cursor: auto;
+  outline: none; /* Remove focus outline */
+  border: none;
+}
+
+.button-hover:focus,
+.button-hover:active,
+.button-hover:hover {
+  outline: none; /* Remove outline on focus/hover */
+  box-shadow: none; /* Remove box shadow on focus/hover */
+  border-color: transparent; /* Set border color to transparent */
+}
+
+.button-text {
+  cursor: pointer;
+}
+
+.p-column-filter-menu-button {
+  padding-left: -1rem;
+}
