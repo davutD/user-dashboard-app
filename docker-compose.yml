@@ -7,16 +7,14 @@ services:
     ports:
       - '3000:3000'
 
-  server:
-    build:
-      context: ./server
-    ports:
-      - '3333:3333'
-    depends_on:
-      - neo4j
-    command: sh -c "sleep 30 && npm run start:dev" # Use 'sh' instead of '/bin/bash' to execute the command
-    environment:
-      - NODE_ENV=development
+  # server:
+  #   build:
+  #     context: ./server
+  #   ports:
+  #     - '3333:3333'
+  #   command: sh -c "sleep 30 && npm run start:dev" # Use 'sh' instead of '/bin/bash' to execute the command
+  #   environment:
+  #     - NODE_ENV=development
 
   neo4j:
     image: neo4j:latest

@@ -16,7 +16,7 @@ import { APP_PIPE } from '@nestjs/core';
 
 @Module({
   imports: [
-    ConfigModule.forRoot({ isGlobal: true }),
+    //ConfigModule.forRoot({ isGlobal: true }),
     Neo4jModule.forRootAsync({
       imports: [ConfigModule],
       inject: [ConfigService],
@@ -28,6 +28,7 @@ import { APP_PIPE } from '@nestjs/core';
         password: configService.get('NEO4J_PASSWORD'),
         database: configService.get('NEO4J_DATABASE'),
       }),
+      global: true,
     }),
     EncryptionModule,
     UserAuthModule,
