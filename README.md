@@ -48,6 +48,9 @@ containers associated with the services defined in the docker-compose.yml file i
 by docker-compose up. This command is typically used to clean up after using docker-compose up, shutting down the services and freeing up resources on the host system.
 
 
+[Screencast from 2024-03-04 13-09-32.webm](https://github.com/davutD/user-dashboard-app/assets/124710876/c2a98fcb-e5f5-4611-9049-dc82277b8d04)
+
+
 
 [![Watch the video](https://img.youtube.com/vi/gWIeb25Hg50/0.jpg)](https://www.youtube.com/watch?v=gWIeb25Hg50)
 
