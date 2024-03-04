@@ -52,6 +52,3 @@ by docker-compose up. This command is typically used to clean up after using doc
 
 
 
-[![Watch the video](https://img.youtube.com/vi/gWIeb25Hg50/0.jpg)](https://www.youtube.com/watch?v=gWIeb25Hg50)
-
-
