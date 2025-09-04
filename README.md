@@ -2,7 +2,7 @@
 
 ## Purpose of the Project
 
-The aim of the project is to develop an application that is flexible and scalable on the server side by utilizing the advantages of microservice architecture,
+The aim of the project is to develop an application that is flexible and scalable on the server side,
 simple and understandable on the client side, and suitable for the user's purposes. In the developed web application, the user can go through the authentication
 and authorization stages of the application and observe the contact data on the dashboard page on the data table, which is already in the database or can be 
 changed by adding or removing from the database, and sort the rows ascending or descending according to categories such as first name, last name, email, country
